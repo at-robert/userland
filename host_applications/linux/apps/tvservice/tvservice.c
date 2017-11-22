@@ -114,7 +114,7 @@ static VCOS_EVENT_T quit_event;
 
 static void show_usage( void )
 {
-   LOG_STD( "Usage: tvservice [OPTION]..." );
+   LOG_STD( "Usage: robert tvservice [OPTION]..." );
    LOG_STD( "  -p, --preferred                   Power on HDMI with preferred settings" );
    LOG_STD( "  -e, --explicit=\"GROUP MODE DRIVE\" Power on HDMI with explicit GROUP (CEA, DMT, CEA_3D_SBS, CEA_3D_TB, CEA_3D_FP, CEA_3D_FS)\n"
             "                                      MODE (see --modes) and DRIVE (HDMI, DVI)" );
